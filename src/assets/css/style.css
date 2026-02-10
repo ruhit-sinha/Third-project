@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(255, 251, 251);
+  background-color: white;
   font-family: "Faculty Glyphic", sans-serif;
 }
 
@@ -201,4 +201,49 @@ header {
 .footer-discription {
   font-size: 20px;
   margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  height: 45px;
+  text-decoration: none;
+  border-color: rgb(182, 180, 180);
+}
+
+form label {
+  font-size: 20px;
+}
+form input[type="submit"] {
+  background-color: rgb(243, 10, 10);
+  font-size: 20px;
+  color: white;
+  border-style: hidden;
+}
+
+form input[type="submit"]:hover {
+  color: black;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(219, 219, 219);
+  height: 130px;
+  width: 100%;
+}
+
+footer .last-text {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  padding-right: 40px;
+}
+
+footer .last-text a {
+  color: black;
 }
