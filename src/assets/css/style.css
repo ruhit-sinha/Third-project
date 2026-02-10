@@ -95,7 +95,7 @@ header {
 .artists-alldetails {
   overflow: hidden;
   background-color: rgb(116, 65, 65);
-  height: 440px;
+  height: 455px;
   box-shadow: 0px 0px 25px 5px rgb(221, 148, 148);
 }
 
@@ -107,6 +107,10 @@ header {
   height: 300px;
 }
 
+.artists-section .artists-alldetails .artist-details h4 {
+  font-weight: 400;
+  font-size: 20px;
+}
 .artists-section .artists-alldetails .artist-details .skill {
   color: gray;
   padding-top: 17px;
