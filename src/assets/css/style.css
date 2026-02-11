@@ -40,7 +40,6 @@ nav a:hover {
 }
 .container {
   margin-left: 350px;
-  width: 100%;
   max-width: 1500px;
   overflow: hidden;
 }
@@ -53,6 +52,7 @@ nav a:hover {
 }
 .image-container img {
   width: 800px;
+  /* max-width: 100%; */
   height: 700px;
   object-fit: cover;
 }
@@ -268,5 +268,17 @@ footer .last-text a {
   .container {
     display: grid;
     grid-template-columns: auto auto;
+    /* width: 100%;
+    height: auto; */
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .lists .all-lists .last-list a {
+    display: flex;
   }
 }
