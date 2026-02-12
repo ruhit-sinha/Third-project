@@ -42,6 +42,7 @@ nav a:hover {
   margin-left: 350px;
   max-width: 1500px;
   overflow: hidden;
+  padding: 10px;
 }
 
 .image-container {
@@ -266,10 +267,12 @@ footer .last-text a {
 
 @media (max-width: 1024px) {
   .container {
-    display: grid;
-    grid-template-columns: auto auto;
+    /* display: grid;
+    grid-template-columns: auto auto; */
     /* width: 100%;
     height: auto; */
+
+    margin-left: 0;
   }
 
   .image-container {
@@ -277,8 +280,24 @@ footer .last-text a {
     flex-direction: column;
     flex-wrap: wrap;
   }
-
+  .image-container img {
+    width: 100%;
+  }
   .lists .all-lists .last-list a {
     display: flex;
+  }
+
+  .artists-alldetails {
+    height: 700px;
+    /* padding-left: 0; */
+    width: 100%;
+  }
+
+  .artists-section .artists-alldetails .artist-details {
+    padding-left: 0;
+  }
+
+  nav {
+    left: -100%;
   }
 }
