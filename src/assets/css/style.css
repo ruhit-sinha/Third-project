@@ -161,17 +161,18 @@ header h1:hover {
   font-size: 20px;
   list-style: none;
   text-align: center;
-  background-color: rgb(245, 240, 240);
 }
 
 .lists .all-lists li {
   border-top: 1px solid rgb(216, 211, 211);
   padding: 20px;
+  background-color: rgb(245, 240, 240);
 }
 
 .lists .all-lists .headof-list {
   padding: 30px;
   background-color: rgb(103, 105, 107);
+  border-style: hidden;
   font-size: 30px;
   color: white;
 }
